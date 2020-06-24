@@ -3,7 +3,7 @@
 // javascript lo pasamos a este js
 //</script></script>
 
-var socket = io('http://localhost:3000');
+var socket = io();
 //comunicacion entre el frond-end-la maquina del cliente hacia el servidor
 
 //saber cuando un usuario se conecta al servidor
