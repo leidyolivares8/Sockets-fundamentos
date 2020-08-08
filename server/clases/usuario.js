@@ -29,7 +29,7 @@ class Usuarios { // se va a encargar de todos los usuario conectados
         //[0]sea un unico registro si encuentra
 
         return persona;
-        //si encuentro una persona voy a tener un objeto, sino un undefine o null
+        //si encuentro una persona voy a tener un objeto, sino un undefine o un null
     }
 
     getPersonasPorSala(sala) {
