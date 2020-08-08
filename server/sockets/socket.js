@@ -50,7 +50,7 @@ lio.on('connection', (client) => {
     });
 
     //¨¨Mensajes privado escuchar
-    //Lo que va  a hacer el servidor cuando alguien quiere enviar un mensaje privado
+    //Lo que va  a hacer el servidor cuando alguien quiere enviar un mensaje privado para alguien
     client.on('mensajePrivado', data => {
 
         let persona = usuarios.getPersonasPorSala(client.id);
